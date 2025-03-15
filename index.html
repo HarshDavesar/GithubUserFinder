@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github User Finder</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:wght@500&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <nav id="nav1">
+        <img src="img/github-mark.png" alt="Logo" id="logo1">
+        <img src="img/GitHub_Logo.png" alt="Logo" id="logo1">
+    </nav>
+
+    <h2 id="err"></h2>
+
+    <form id="fillingForm">
+        <div id="container1">
+            <h2>Fill the User Name</h2>
+            <input type="text" id="inputField">
+
+            <div id="searching">
+                <button id="btn" src="">Search it!</button>
+            </div>
+        </div>
+    </form>
+
+    <form id="displayForm">
+        <div id="container2">
+            <img src="" alt="" id="gImg">
+            <div id="details">
+                <p> Profile link : <span id="userLink"></span></p>
+                <p> Name : <span id="userName"></span></p>
+                <p> ID : <span id="userId"></span></p>
+                <p> Location : <span id="location"></span></p>
+                <p> Public repo's : <span id="userRepo"></span></p>
+                <p> Follower : <span id="userFollower"></span></p>
+                <p> Following : <span id="userFollowing"></span></p>
+            </div>
+        </div>
+    </form>
+
+
+
+    <script src="javaScript.js"></script>
+</body>
+
+</html>
